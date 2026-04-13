@@ -1,0 +1,17 @@
+{
+  "name": "dealmind-backend",
+  "version": "1.0.0",
+  "description": "Backend for DealMind AI",
+  "main": "server.py",
+  "scripts": {
+    "start": "python server.py"
+  },
+  "dependencies": {
+    "fastapi": "^0.109.0",
+    "uvicorn": "^0.27.0",
+    "pydantic": "^2.5.3",
+    "groq": "^0.4.2",
+    "python-dotenv": "^1.0.0",
+    "cors": "^2.8.5"
+  }
+}
